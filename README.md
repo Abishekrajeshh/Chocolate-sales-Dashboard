@@ -4,7 +4,7 @@ This repository contains a Power BI dashboard designed to visualize and analyze 
 
 ## **See the Full Dash Board Here**   
 
-[App PowerBI Link](https://app.powerbi.com/links/39h6MJw56h?ctid=17f1a87e-2a25-4eaa-b9df-9d439034b080&pbi_source=linkShare&bookmarkGuid=3b591a33-96ce-4518-a38d-bbaa10998db9)
+[App PowerBI Link](https://app.powerbi.com/view?r=eyJrIjoiNzVkNzUwMWMtNGM4Yy00YTQ2LTg5ZDEtMmYyOTA4NmQ3YWQ2IiwidCI6IjE3ZjFhODdlLTJhMjUtNGVhYS1iOWRmLTlkNDM5MDM0YjA4MCIsImMiOjF9)
 
 ![Portfolio Dashboard](Chocolatesalespp.png)  
  
