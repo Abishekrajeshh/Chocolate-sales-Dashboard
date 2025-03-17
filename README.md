@@ -1,56 +1,107 @@
-# **Power BI Sales Dashboard**
+# 📊 Lindt Chocolate Power BI Dashboard
 
-This repository contains a Power BI dashboard designed to visualize and analyze sales data. The dashboard provides insights into various sales metrics, helping users understand sales performance, trends, and patterns.
+🚀 **Overview**
+This repository contains an interactive **Power BI Sales Dashboard** for **Lindt Chocolate**, designed to track **sales performance, product profitability, and shipment trends**. This dashboard provides real-time insights, helping businesses optimize their **sales, logistics, and regional strategies**.
 
-## **See the Full Dash Board Here**   
+🔗 **View the Full Dashboard Here:**  
+[Lindt Chocolate Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNzVkNzUwMWMtNGM4Yy00YTQ2LTg5ZDEtMmYyOTA4NmQ3YWQ2IiwidCI6IjE3ZjFhODdlLTJhMjUtNGVhYS1iOWRmLTlkNDM5MDM0YjA4MCIsImMiOjF9)
 
-[Chocolate sales PowerBI Link](https://app.powerbi.com/view?r=eyJrIjoiNzVkNzUwMWMtNGM4Yy00YTQ2LTg5ZDEtMmYyOTA4NmQ3YWQ2IiwidCI6IjE3ZjFhODdlLTJhMjUtNGVhYS1iOWRmLTlkNDM5MDM0YjA4MCIsImMiOjF9)
+📸 **Dashboard Previews:**
 
-![Portfolio Dashboard](Chocolatesalespp.png)  
- 
-### **Features**
+- ![Main Dashboard](./Chocolatesalespp.png)  *(1 - Main Page: Sales Performance Overview)*
+- ![Tooltip Example](./tooltip.png) *(Tooltip - Region Analysis Tooltip Feature)*
+- ![Product Analysis](./product.png) *(Product - Product Performance Breakdown)*
+- ![Sales Representative Performance](./people.png) *(People - Sales Team Performance)*
+- ![Regional Sales for USA](./usa.png) *(USA - Regional Sales Breakdown)*
+- ![Regional Sales for India](./india.png) *(India - Regional Sales Breakdown)*
 
-**Sales Overview**: A comprehensive view of total sales, total boxes sold, total costs, and total profit. It also includes the month-over-month (MoM) growth percentage.  
-**Product Performance**: Detailed analysis of sales, profit, and profit percentage by product. The dashboard highlights the top-performing products and provides a visual representation of profit margins.  
-**Boxes Analysis**: A line chart showing the number of boxes sold by the start of each month, helping to identify trends over time.  
-**Shipment Analysis**: A histogram and percentage gauge showing shipment details, including the LBS (pounds) percentage and Low Box Count (LBC) percentage.  
-**Salesperson Performance**: Analysis of sales, profit, profit percentage, and LBS percentage by salesperson.  
-**Geographic Breakdown**: Sales data segmented by different regions, including Australia, Canada, India, New Zealand, UK, and USA.  
-**Interactive Elements**: The dashboard includes interactive elements such as tabs for different categories (Bars, Bites, Other) and visual indicators (e.g., checkmarks and crosses) for easy interpretation of product performance.  
+---
 
-### **Explanation of Metrics**
+## **🔍 Key Insights from the Dashboard**
 
-**Total Sales**: The total revenue generated from sales.  
-**Total Boxes**: The total number of boxes sold.  
-**Total Shipments**: The total number of shipments, easily figured out from the shipment table.  
-**Total Costs**: Calculated from the product table by taking the cost per box.  
-**Total Profit**: The difference between total sales and total costs.  
-**Profit Percentage**: The percentage of profit relative to sales.  
-**Low Box Count (LBC)**: A metric indicating the number of low box counts.  
-**Low Box Percentage (LBC%)**: The percentage of low box counts relative to total boxes.  
-**Month on Month (MoM)**: Growth percentage comparing the current month to the previous month.  
-**Year on Year (YoY)**: Growth percentage comparing the current year to the previous year.  
+### **📸 1 - Main Page: Sales Performance Overview**
+- **Total Sales & Costs**: Tracks revenue and expenditure for performance analysis.
+- **MoM (Month-over-Month) Growth**: Shows whether sales are **increasing or decreasing** compared to the previous month.
+- **Total Profit & Profit Margins**: Helps evaluate financial efficiency.
+- **Shipment Metrics (LBC % - Low Box Count)**: Analyzes shipment sizes and logistics efficiency.
 
-### **Files**
+### **📸 Tooltip - Tooltip Feature Explanation**
+- **Dynamic Tooltip Analysis**: Displays additional insights when hovering over regions.
+- **Region Distribution Chart**: Presents **sales share per country**, helping in regional comparison.
 
-**Sales_Dashboard.pbix**: The main Power BI dashboard file.  
-**Data Sources**: Folder containing sample data sources used in the dashboard (ac-sample-data.xlsx).  
-**README.md**: This file, providing an overview of the repository and instructions for use.  
+### **📸 Product - Product Performance Breakdown**
+- **Top-Selling Products**: Highest revenue generators include **Peanut Butter Cubes, Smooth Silky Salty, and Manuka Honey Choco**.
+- **Profitability per Product**: Some products yield **high revenue but low margins**, while others maintain **high-profit margins** with fewer sales.
+- **Category Segmentation**: Divides products into **Bars, Bites, and Other**, making it easy to analyze category-wise performance.
 
-### **How to Use**
+### **📸 People - Sales Team Performance**
+- **Top Sales Representatives**: Displays best-performing salespeople based on **sales, profit, and profit margins**.
+- **LBS % (Low Box Shipment Percentage)**: Helps assess shipment efficiency per sales rep.
+- **Profit Contribution by Sales Rep**: Tracks individual contributions to company profits.
 
-Download the .pbix file: Clone the repository or download the Sales_Dashboard.pbix file directly.  
-Open in Power BI Desktop: Open the .pbix file using Power BI Desktop.  
-Refresh Data: Connect your data sources and refresh the data to see the latest insights.  
-Explore the Dashboard: Use the interactive visuals to explore and analyze the sales data.  
+### **📸 USA & India - Regional Analysis by Country**
+- **Sales by Country**: Breaks down sales by **Australia, Canada, India, New Zealand, UK, and USA**.
+- **Profitability Trends**: Identifies **high-profit** vs. **low-profit regions**.
+- **Performance Evaluation**: India has **positive MoM growth**, while the USA shows a **decline in MoM sales**.
 
+---
 
-### **Access the Dashboard Online**  
-You can view the dashboard online via this Power BI link.  
-[App PowerBI Link](https://app.powerbi.com/view?r=eyJrIjoiNzVkNzUwMWMtNGM4Yy00YTQ2LTg5ZDEtMmYyOTA4NmQ3YWQ2IiwidCI6IjE3ZjFhODdlLTJhMjUtNGVhYS1iOWRmLTlkNDM5MDM0YjA4MCIsImMiOjF9)
+## **📌 Business Recommendations**
 
-**Contributing**  
-Feel free to fork this repository, make enhancements, and submit pull requests. Your contributions are welcome!  
+✅ **Boost Sales in Low-Performing Regions**:
+- Run **targeted marketing campaigns** in underperforming areas.
+- Offer **location-based discounts** to increase sales.
 
-**License**  
-This project is licensed under the MIT License - see the LICENSE file for details.  
+✅ **Optimize Product Pricing & Strategy**:
+- Focus on **high-profit margin** products.
+- Adjust **pricing** for lower-margin items to increase overall revenue.
+
+✅ **Enhance Logistics & Shipment Strategy**:
+- Reduce **Low Box Count (LBC%)** to optimize logistics.
+- Adjust shipment planning for better cost efficiency.
+
+✅ **Improve Sales Team Performance**:
+- Provide **incentives** for top-performing salespeople.
+- Offer **training programs** for underperforming reps.
+
+✅ **Monitor Sales Trends (MoM & YoY)**:
+- Address declining **MoM sales in the USA**.
+- Capitalize on **India's strong MoM growth** by boosting production and marketing efforts.
+
+---
+
+## 🛠️ **Files & Data Sources**
+
+📂 **Included Files:**
+- `Sales_Dashboard.pbix` - The **Power BI dashboard file**.
+- `sales-data.xlsx` - Sample **dataset** used in analysis.
+- `README.md` - Documentation explaining the dashboard.
+
+---
+
+## 🚀 **How to Use**
+1️⃣ **Clone the repository**  
+```bash
+git clone https://github.com/your-repository/PowerBI-Sales-Dashboard.git
+```
+2️⃣ **Open in Power BI Desktop** - Load the `Sales_Dashboard.pbix` file.  
+3️⃣ **Refresh Data** - Connect and update with the latest dataset.  
+4️⃣ **Explore Dashboard** - Use **interactive visuals and slicers** to analyze trends.  
+
+---
+
+## 📊 **Access the Dashboard Online**
+You can view the **full dashboard online** via this **Power BI link**:  
+[Lindt Chocolate Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNzVkNzUwMWMtNGM4Yy00YTQ2LTg5ZDEtMmYyOTA4NmQ3YWQ2IiwidCI6IjE3ZjFhODdlLTJhMjUtNGVhYS1iOWRmLTlkNDM5MDM0YjA4MCIsImMiOjF9)
+
+---
+
+## 🤝 **Contributing**
+Contributions are welcome! Feel free to **fork** the repository, enhance the dashboard, and submit **pull requests**.
+
+---
+
+## 📜 **License**
+This project is licensed under the **MIT License**. See the `LICENSE` file for details.
+
+🌟 **If you found this project helpful, don’t forget to star ⭐ the repository!** 🚀
